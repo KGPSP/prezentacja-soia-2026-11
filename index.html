@@ -1098,6 +1098,27 @@ svg.q9-svg{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:n
 .q9-leg i{width:28px;height:5px;border-radius:3px}.q9-leg i.b{background:var(--red)}.q9-leg i.a{background:#3A3A3A}
 body.overview .q9-line{stroke-dashoffset:0}
 
+
+/* ============ Siły własne a rynek (q10-*) ============ */
+.q10{position:absolute;left:120px;top:290px;width:1180px}
+.q10-h,.q10-r{display:grid;grid-template-columns:300px 1fr 1fr;column-gap:0}
+.q10-h span{padding:16px 28px;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
+.q10-h .m{background:#D6D6D6;color:#3A3A3A;border-radius:14px 0 0 0}.q10-h .o{background:var(--red);color:#fff;border-radius:0 14px 0 0}
+.q10-r{border-bottom:1px solid #E2E2E2;align-items:center}
+.q10-r .l{font-size:28px;font-weight:700;padding:34px 0}
+.q10-r b{display:block;padding:34px 28px;font-size:54px;font-weight:800;letter-spacing:-1px;line-height:1.1;height:100%}
+.q10-r b.m{background:#F4F4F4;color:#3A3A3A}.q10-r b.o{background:#FDECEC;color:var(--red);border-left:3px solid var(--red)}
+.q10-r small{display:block;font-size:20px;font-weight:500;letter-spacing:0;margin-top:4px;color:var(--gray)}
+.q10-bar{grid-column:2 / 4;position:relative;padding:12px 28px 10px;background:#fff}
+.q10-bar i{display:block;height:12px;border-radius:5px;margin-bottom:4px}
+.q10-bar i.m{background:#9A9A9A}.q10-bar i.o{background:var(--red);min-width:6px}
+.q10-bar em{display:block;font-style:normal;font-size:14px;color:var(--gray);margin-top:2px}
+.q10-big{position:absolute;left:1340px;right:120px;top:400px;padding:30px 30px 26px;border-radius:var(--radius);background:var(--red);color:#fff}
+.q10-big b{display:block;font-size:52px;white-space:nowrap;font-weight:800;letter-spacing:-2px;line-height:1}
+.q10-big span{display:block;font-size:22px;font-weight:600;margin-top:10px}
+.q10-big em{display:block;font-style:normal;font-size:17px;opacity:.85;margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.4)}
+.q10-foot{position:absolute;left:120px;top:930px;font-size:15px;color:var(--gray)}
+
 /* ============ SLAJD 1 — „chwila przed alarmem” ============ */
 /* ciemny ekran na wejściu */
 .blackout{position:absolute;inset:0;background:#000;z-index:50;pointer-events:none;opacity:0}
@@ -2269,7 +2290,27 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 29 — SEKCJA 04: RODZINA SYSTEMÓW SOiA ================= -->
+<!-- ================= SLAJD 29 — GSU: SIŁY WŁASNE A RYNEK ================= -->
+<section class="slide" data-title="Siły własne a rynek">
+  <div class="hdr">
+    <div class="kicker" data-anim="up">Sekcja 03 · Gdzie się ukryć · Siły własne a rynek</div>
+    <h2 class="h2" data-anim="up" style="margin-top:14px;--d:.12s">Siły własne a rynek</h2>
+    <p class="lead" data-anim="up" style="margin-top:6px;--d:.22s">szacunek BIŁ, kwoty brutto</p>
+  </div>
+  <div class="q10">
+    <div class="q10-h" data-anim="fade" style="--d:.3s"><span></span><span class="m">Rynek · przetarg</span><span class="o">Siły własne · BIŁ</span></div>
+    <div class="q10-r" data-anim="up" data-step="1"><span class="l">Wytworzenie</span><b class="m">6,2 mln zł</b><b class="o">do 0,1 mln zł</b>
+      <div class="q10-bar"><i class="m" style="width:100%"></i><i class="o" style="width:1.6%"></i><em>skala: 6,2 mln zł · 0,1 mln zł</em></div></div>
+    <div class="q10-r" data-anim="up" data-step="2"><span class="l">Utrzymanie rocznie</span><b class="m">0,8–2,2 mln zł</b><b class="o">do 0,1 mln zł</b></div>
+    <div class="q10-r" data-anim="up" data-step="3"><span class="l">Czas</span><b class="m">ok. 17 mies.<small>do produkcji</small></b><b class="o">4 tygodnie<small>aplikacja mobilna</small></b></div>
+  </div>
+  <div class="q10-big" data-anim="zoom" data-step="4"><b>ok. 6,1 mln zł</b><span>uniknięty wydatek, brutto</span><em>3,2–10,9 mln zł zależnie od stawek</em></div>
+  <div class="q10-foot" data-anim="fade" style="--d:.6s">szacunek, nie kwota księgowa · bez kosztów osobowych · wydatki z faktur IX–X 2026</div>
+  <div class="side-tab" data-anim="down" style="--d:.2s"><span>Gdzie się ukryć</span></div>
+  <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
+</section>
+
+<!-- ================= SLAJD 30 — SEKCJA 04: RODZINA SYSTEMÓW SOiA ================= -->
 <section class="slide red" data-title="Rodzina systemów SOiA">
   <div class="waves out" style="left:1318px;top:258px"><i></i><i></i><i></i><i></i></div>
   <div class="photo" data-anim="zoom" style="position:absolute;left:1140px;top:100px;width:660px;height:750px;--d:.3s">
@@ -2294,7 +2335,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 30 — CAP: WSPÓLNY FORMAT ================= -->
+<!-- ================= SLAJD 31 — CAP: WSPÓLNY FORMAT ================= -->
 <section class="slide" data-title="CAP: wspólny format ostrzeżeń">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span> · Podstawy</div>
@@ -2350,7 +2391,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 31 — PL-CAP: SŁOWNIK ZDARZEŃ ================= -->
+<!-- ================= SLAJD 32 — PL-CAP: SŁOWNIK ZDARZEŃ ================= -->
 <section class="slide" data-title="Słownik zdarzeń PL-CAP">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span> · Podstawy</div>
@@ -2378,7 +2419,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 32 — PRIORYTETY P1–P4 ================= -->
+<!-- ================= SLAJD 33 — PRIORYTETY P1–P4 ================= -->
 <section class="slide" data-title="Priorytety P1–P4">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span> · Podstawy</div>
@@ -2399,7 +2440,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 33 — ALARM.soia: JAK CZYTAĆ ALERTY ================= -->
+<!-- ================= SLAJD 34 — ALARM.soia: JAK CZYTAĆ ALERTY ================= -->
 <section class="slide dark" data-title="Jak czytać alerty">
   <div class="hdr">
     <div class="kicker" data-anim="up" style="color:var(--red)">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span></div>
@@ -2433,7 +2474,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 34 — ALARM.soia: ZASADY BEZ WYJĄTKÓW ================= -->
+<!-- ================= SLAJD 35 — ALARM.soia: ZASADY BEZ WYJĄTKÓW ================= -->
 <section class="slide gray" data-title="Zasady bez wyjątków">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span></div>
@@ -2458,7 +2499,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 35 — ALARM.soia: JAK DZIAŁA ================= -->
+<!-- ================= SLAJD 36 — ALARM.soia: JAK DZIAŁA ================= -->
 <section class="slide" data-title="ALARM.soia: jak działa">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span></div>
@@ -2511,7 +2552,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 36 — ALARM.soia: PORTAL PUBLICZNY ================= -->
+<!-- ================= SLAJD 37 — ALARM.soia: PORTAL PUBLICZNY ================= -->
 <section class="slide dark" data-title="Portal publiczny ALARM.soia">
   <div class="hdr">
     <div class="kicker" data-anim="up" style="color:var(--red)">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span></div>
@@ -2542,7 +2583,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 37 — ALARM.soia: BEZPIECZEŃSTWO I WERYFIKACJA ================= -->
+<!-- ================= SLAJD 38 — ALARM.soia: BEZPIECZEŃSTWO I WERYFIKACJA ================= -->
 <section class="slide dark" data-title="Bezpieczeństwo i weryfikacja">
   <div class="hdr">
     <div class="kicker" data-anim="up" style="color:var(--red)">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span></div>
@@ -2570,7 +2611,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 38 — APLIKACJA ALARM.SOIA ================= -->
+<!-- ================= SLAJD 39 — APLIKACJA ALARM.SOIA ================= -->
 <section class="slide dark appdark" data-title="Aplikacja ALARM.SOIA">
   <div class="hdr">
     <div class="kicker" data-anim="up" style="color:var(--red)">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span> · Aplikacja</div>
@@ -2603,7 +2644,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 39 — APLIKACJA: WYDANIA I BEZPIECZEŃSTWO ================= -->
+<!-- ================= SLAJD 40 — APLIKACJA: WYDANIA I BEZPIECZEŃSTWO ================= -->
 <section class="slide gray" data-title="Wydania i bezpieczeństwo aplikacji">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ALARM.soia</span> · Aplikacja</div>
@@ -2637,7 +2678,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 40 — SYRENY: ZAMÓWIENIE B3 ================= -->
+<!-- ================= SLAJD 41 — SYRENY: ZAMÓWIENIE B3 ================= -->
 <section class="slide" data-title="Syreny: zamówienie B3">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span></div>
@@ -2670,7 +2711,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 41 — IoT FEED ================= -->
+<!-- ================= SLAJD 42 — IoT FEED ================= -->
 <section class="slide" data-title="IoT feed">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · IoT feed</div>
@@ -2710,7 +2751,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 42 — BEZ REJESTRACJI, Z PODPISEM ================= -->
+<!-- ================= SLAJD 43 — BEZ REJESTRACJI, Z PODPISEM ================= -->
 <section class="slide gray" data-title="Bez rejestracji, z podpisem">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · IoT feed</div>
@@ -2731,7 +2772,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 43 — SIEDEM BRAMEK ================= -->
+<!-- ================= SLAJD 44 — SIEDEM BRAMEK ================= -->
 <section class="slide" data-title="Siedem bramek przed alarmem">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · IoT feed</div>
@@ -2775,7 +2816,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 44 — STEROWNIK OD ŚRODKA ================= -->
+<!-- ================= SLAJD 45 — STEROWNIK OD ŚRODKA ================= -->
 <section class="slide" data-title="Sterownik od środka">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · Technika</div>
@@ -2851,7 +2892,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 45 — JEDEN KOMUNIKAT, WIELE EKRANÓW ================= -->
+<!-- ================= SLAJD 46 — JEDEN KOMUNIKAT, WIELE EKRANÓW ================= -->
 <section class="slide" data-title="Jeden komunikat, wiele ekranów">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · IoT feed · Możliwości</div>
@@ -2877,7 +2918,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 46 — PRZYŁĄCZENIE STEROWNIKA ================= -->
+<!-- ================= SLAJD 47 — PRZYŁĄCZENIE STEROWNIKA ================= -->
 <section class="slide" data-title="Przyłączenie sterownika: kto co robi">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · Aprowizacja</div>
@@ -2905,7 +2946,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 47 — WYSŁANIE I ODPOWIEDŹ ================= -->
+<!-- ================= SLAJD 48 — WYSŁANIE I ODPOWIEDŹ ================= -->
 <section class="slide" data-title="Wysłanie i odpowiedź">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · Aprowizacja</div>
@@ -2947,7 +2988,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 48 — SYMULATOR STEROWNIKA ================= -->
+<!-- ================= SLAJD 49 — SYMULATOR STEROWNIKA ================= -->
 <section class="slide dark" data-title="Symulator sterownika syreny">
   <div class="hdr">
     <div class="kicker" data-anim="up" style="color:var(--red)">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SYRENY.soia</span> · Testy</div>
@@ -2978,7 +3019,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 49 — SYSTEM.soia: BRAMA SYSTEMÓW ================= -->
+<!-- ================= SLAJD 50 — SYSTEM.soia: BRAMA SYSTEMÓW ================= -->
 <section class="slide" data-title="Jedna brama, sześć systemów">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · Rodzina systemów</div>
@@ -3003,7 +3044,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 50 — ZKSWD.soia ================= -->
+<!-- ================= SLAJD 51 — ZKSWD.soia ================= -->
 <section class="slide" data-title="ZKSWD.soia">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">ZKSWD.soia</span></div>
@@ -3049,7 +3090,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 51 — CivCom ================= -->
+<!-- ================= SLAJD 52 — CivCom ================= -->
 <section class="slide gray" data-title="CivCom">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · CivCom</div>
@@ -3086,7 +3127,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 52 — WIEDZA.soia ================= -->
+<!-- ================= SLAJD 53 — WIEDZA.soia ================= -->
 <section class="slide" data-title="WIEDZA.soia">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">WIEDZA.soia</span></div>
@@ -3122,7 +3163,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 53 — SSO.soia ================= -->
+<!-- ================= SLAJD 54 — SSO.soia ================= -->
 <section class="slide" data-title="SSO.soia">
   <div class="hdr">
     <div class="kicker" data-anim="up">Sekcja 04 · <span class="nc">SOiA</span> · <span class="nc">SSO.soia</span></div>
@@ -3166,7 +3207,7 @@ body.overview .slide .bar{transform:none}
 </section>
 
 
-<!-- ================= SLAJD 54 — CEZOL ================= -->
+<!-- ================= SLAJD 55 — CEZOL ================= -->
 <section class="slide" data-title="CEZOL">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 05 · Pozostałe systemy · CEZOL</div>
@@ -3196,7 +3237,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 55 — CEOZO ================= -->
+<!-- ================= SLAJD 56 — CEOZO ================= -->
 <section class="slide" data-title="CEOZO">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 06 · Pozostałe systemy · CEOZO</div>
@@ -3241,7 +3282,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 56 — mLEGITYMACJA OSP ================= -->
+<!-- ================= SLAJD 57 — mLEGITYMACJA OSP ================= -->
 <section class="slide" data-title="mLegitymacja OSP">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 07 · Pozostałe systemy · mLegitymacja OSP</div>
@@ -3268,7 +3309,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 57 — KARTA RODZINY MUNDUROWEJ ================= -->
+<!-- ================= SLAJD 58 — KARTA RODZINY MUNDUROWEJ ================= -->
 <section class="slide" data-title="Karta Rodziny Mundurowej">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 08 · Pozostałe systemy · Karta Rodziny Mundurowej</div>
@@ -3297,7 +3338,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 58 — SWD PSP ================= -->
+<!-- ================= SLAJD 59 — SWD PSP ================= -->
 <section class="slide" data-title="SWD PSP">
   <div class="tt-sh">
     <div class="kicker" data-anim="up">Sekcja 09 · Pozostałe systemy · SWD PSP</div>
@@ -3335,7 +3376,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 59 — NAJBLIŻSZE TERMINY ================= -->
+<!-- ================= SLAJD 60 — NAJBLIŻSZE TERMINY ================= -->
 <section class="slide gray" data-title="Najbliższe terminy">
   <div class="hdr">
     <div class="kicker" data-anim="up">Podsumowanie</div>
@@ -3369,7 +3410,7 @@ body.overview .slide .bar{transform:none}
   <div class="footer"><span>KG PSP · Biuro Informatyki i Łączności</span><span class="pageno"></span></div>
 </section>
 
-<!-- ================= SLAJD 60 — DZIĘKUJEMY ================= -->
+<!-- ================= SLAJD 61 — DZIĘKUJEMY ================= -->
 <section class="slide red" data-title="Dziękujemy">
   <div class="waves out" style="left:1340px;top:520px"><i></i><i></i><i></i><i></i></div>
   <div class="end-l">
